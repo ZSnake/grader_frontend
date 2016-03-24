@@ -33,16 +33,20 @@ module.exports =
       id: "using-the-scanner"
       location: "example#using-the-scanner"
     }
+    {
+        id: "just-a-view"
+        location: "example#just-a-view"
+    }
   ]
 
-  # drawers:
-  #   left:
-  #     id: "leftDrawer"
-  #     location: "example#drawer"
-  #     showOnAppLoad: false
-  #   options:
-  #     animation: "swingingDoor"
-  #
-  # initialView:
-  #   id: "initialView"
-  #   location: "example#initial-view"
+  drawers:
+    left:
+      id: "leftDrawer"
+      location: "example#drawer"
+      showOnAppLoad: false
+    options:
+      animation: "swingingDoor"
+  
+#   initialView:
+#     id: "initialView"
+#     location: "example#initial-view"

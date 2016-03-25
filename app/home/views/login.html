@@ -1,0 +1,22 @@
+<super-navbar>
+  <super-navbar-title>
+    Login
+  </super-navbar-title>
+</super-navbar>
+
+<div class="card" ng-controller="LoginController">
+  <div class="item item-text-wrap">
+    <div class="list">
+        <label class="item item-input">
+            <input type="text" placeholder="Username" ng-model="user.username">
+        </label>
+        <label class="item item-input">
+            <input type="password" placeholder="Password" ng-model="user.password">
+        </label>
+        <div class="button-bar">
+            <a class="button button-positive" ng-click="login(user)">Login</a>
+            <a class="button button-dark" ng-click="register()">Register</a>
+        </div>
+    </div>
+  </div>
+</div>
